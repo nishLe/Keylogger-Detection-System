@@ -51,3 +51,37 @@ This Final Year Project (FYP) is an advanced security tool designed to detect ke
 - **Data Analysis**: pandas, matplotlib, seaborn
 - **External APIs**: VirusTotal API v2
 - **Cryptography**: OpenSSL, cryptography library
+
+### GUI Features
+
+- **Start/Stop Scan**: Begin or pause real-time monitoring
+- **View Detections**: See all suspicious processes with risk scores
+- **Generate Reports**: Create detailed HTML/CSV reports
+- **Whitelist Management**: Add trusted processes
+- **Process Actions**: Terminate suspicious processes directly from the interface
+
+## 🔬 Technical Details
+
+### Process Monitoring
+- Scans all running processes every scan cycle
+- Extracts process metadata (PID, name, path, command line)
+- Calculates MD5 hashes of executables
+- Monitors loaded DLLs and modules
+
+### Network Analysis
+- Real-time packet capture and analysis
+- DNS query monitoring
+- SSL/TLS certificate inspection
+- Pattern matching for data exfiltration
+
+### Reporting System
+- Generates timestamped HTML reports
+- Exports data to CSV for analysis
+- Creates visualization charts
+- Maintains historical detection database
+
+## 📚 References
+
+- [VirusTotal API Documentation](https://developers.virustotal.com/reference)
+- [MITRE ATT&CK Framework](https://attack.mitre.org/)
+- [Windows API Documentation](https://docs.microsoft.com/en-us/windows/win32/api/)
