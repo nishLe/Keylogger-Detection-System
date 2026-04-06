@@ -69,12 +69,6 @@ This Final Year Project (FYP) is an advanced security tool designed to detect ke
 - Calculates MD5 hashes of executables
 - Monitors loaded DLLs and modules
 
-### Network Analysis
-- Real-time packet capture and analysis
-- DNS query monitoring
-- SSL/TLS certificate inspection
-- Pattern matching for data exfiltration
-
 ### Reporting System
 - Generates timestamped HTML reports
 - Exports data to CSV for analysis
