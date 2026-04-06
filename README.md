@@ -20,7 +20,6 @@ This Final Year Project (FYP) is an advanced security tool designed to detect ke
 
 ### Advanced Analysis
 - **Risk Scoring System**: Weighted risk assessment with multiple factors (DLL hooks, network activity, suspicious imports, etc.)
-- **Network Traffic Analysis**: Deep packet inspection for keylogger-specific patterns
 - **Known Malware Database**: Signatures for Ardamax, Agent Tesla, FormBook, Remcos RAT, and other popular keyloggers
 - **File Integrity Checking**: MD5 hash verification against known malicious signatures
 
